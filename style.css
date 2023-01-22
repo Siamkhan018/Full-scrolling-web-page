@@ -1,0 +1,44 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.slides{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    scroll-snap-align: start;
+}
+.slides img{
+    width: 360px;
+}
+.slides h2{
+    font-size: 70px;
+    font-weight: 600;
+}
+.slides1{
+    background: linear-gradient(454deg, #4f4080, #9553ff);
+}
+.slides2{
+    background: linear-gradient(454deg, #04d663, #ff53cb);
+}
+.slides3{
+    background: linear-gradient(454deg, #4f4080, #f75003);
+}
+
+
+
+
+
+
+
+
